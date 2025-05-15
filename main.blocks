@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id=",RUB*=*usg3Symdc!52#" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_repeat_ext" id="N:.Z_(VK!wIYT+lPshS6"><value name="TIMES"><shadow type="math_whole_number" id="A5nU`+Psne.kZm2[YEF2"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="device_show_leds" id="igdr}e.^:|j8XxD!ErI5"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field><next><block type="device_pause" id="Fs+}]8L(OdrxTePn`B4c"><value name="pause"><shadow type="timePicker" id="~5x._4*O4y^1EtQK?YaB"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="3DtdT-s+xNz}G5,[x`$1"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field><next><block type="device_pause" id="9i-5-!d`Uj#@a;PaRM-*"><value name="pause"><shadow type="timePicker" id="nt]([`UYgZG-ECv+q{{!"><field name="ms">500</field></shadow></value></block></next></block></next></block></next></block></statement><next><block type="device_clear_display" id="8{J_|c{T2`RI$aiY-r()"></block></next></block></statement></block><block type="device_button_event" id="LlnH)xE5`v*98[{xU)QL" x="238" y="39"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="music_playable_play_default_bkg" id="a2[.yNI6bAnFfBM5FNmT"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="=ReZepTKdTHXDi$,3R%~"><field name="melody">Melodies.Nyan</field></shadow></value></block></statement></block><block type="device_button_event" id="j!xv|+U8X#,/STixNQ[n" x="238" y="191"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="music_playable_play" id="k%c,wgTLsrR4h48ZTioS"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="NP+A`GV1exObnplxV}Wk"><field name="soundExpression">soundExpression.twinkle</field></shadow></value></block></statement></block></xml>
